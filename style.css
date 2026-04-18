@@ -1,0 +1,253 @@
+
+    body{
+        margin: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .header{
+           background-color: blue;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 50px;
+
+    }
+    .logo{
+      width: 100px;
+    }
+    .header-links a{
+
+        color: white;
+        padding: 5px 15px;
+        text-decoration: none;
+        border-radius: 15px;
+
+    }
+    
+    .header-links a:hover{
+       background-color: rgb(58, 143, 222);
+    }
+
+    .btn:hover{
+        background-color: #ff4d4d;
+    }
+
+    .btn{
+       background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 15px;
+    }
+    .landing-page{
+        background-color: blue;
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+         padding: 25px 50px;
+         color: white;
+         border-radius: 0px 0px 50px 50px  ;
+    }
+    .landing-page-search input {
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 30px;
+        padding: 0 10px;
+
+    }
+    .landing-page-search button{
+        position: absolute;
+        left: 200px;
+         height: 30px;
+    }
+    .landing-page-image-container img{
+        border-radius: 20px;
+        width: 250px;
+      
+    }
+    .landing-page-lft-section{
+        width: 450px;
+    }
+    .Trending-header{
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .most-played-header{
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+    }
+
+    .Top-Catogories-header{
+        padding-top: 60px;
+              display: flex ;
+                flex-direction: column;
+
+        align-items: center;
+    }
+    .Trending-container{
+        padding: 25px 250px;
+    }
+    .most-played-container{
+         padding: 25px 250px;
+
+          background-color: rgb(196, 196, 199);
+         border-radius: 50px;
+
+     
+
+    }
+    .Trending-container span{
+        color: #ff0000;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+      .most-played-container span{
+        color: #ff0000;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .Top-Catogories-header span{
+          color: #ff0000;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .Trending-cards{
+
+        gap: 12px;
+        display: flex;
+         justify-content: space-between;
+        align-items: center;
+
+    }
+        .most-played-cards{
+
+        gap: 12px;
+        display: flex;
+         justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .Top-Catogories-cards{
+
+           gap: 12px;
+        display: flex;
+         justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .most-played-card{
+          width: 200px;
+        background-color: rgb(196, 196, 199);
+        border-radius: 20px;
+    }
+    .card{
+        width: 200px;
+        background-color: rgb(221, 220, 220);
+        border-radius: 20px;
+    }
+    .Top-Catogories-card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+           width: 200px;
+           height: 160px;
+        background-color: blue;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .Top-Catogories-card:hover{
+        box-shadow: 0  10px 30px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+    .Top-Catogories-card img{
+             width: 200px;
+                border-radius: 20px;
+    }
+    .card-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 25px;
+     
+
+    }
+
+    .most-played-card-name{
+         display: flex;
+         flex-direction: column;
+        align-items:center;
+        gap: 2px;
+        margin-bottom: 15px;
+
+}
+.Top-Catogories-card-info{
+    color: white;
+}
+
+    .Top-Catogories-card-info h3{
+        margin: 0;
+        padding: 5px;
+    }
+    .most-played-card-name p{
+        margin: o;
+        color: #7a7a7a;
+    }
+    .most-played-card-name h3{
+        margin: 0;
+    }
+    .most-played-card-info{
+        display: flex;
+         flex-direction: column;
+        align-items:center;
+        padding: 20px 10px;
+        min-height: 100px;
+        justify-content:space-around;
+
+    }
+    .card-info img{
+       width:30px !important;
+       height: auto;
+
+    }
+    .card img{
+        width: 200px;
+                border-radius: 20px 20px 0px 0px;
+
+    }
+
+        .most-played-card img{
+        width: 200px;
+                border-radius: 20px 20px 0px 0px;
+
+    }
+
+    .footer-container{
+                background-color: blue;
+         
+          margin-top: 100px;
+          padding: 100px 50px;
+    }
+    .footer-info{
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+        width: 100%;
+        padding: 20px 0;
+
+    }
+ 
+
